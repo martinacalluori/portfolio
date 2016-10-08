@@ -56,3 +56,7 @@ node_modules
 portfolio/photos
 portfolio/designs
 portfolio/videos
+
+*.jpg
+
+*.jpg
