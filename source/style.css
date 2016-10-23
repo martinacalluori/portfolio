@@ -1,10 +1,11 @@
 header {
-  background-color: #BFB48F;
+  background-color: #476C9B;
 }
 
 nav {
   margin-top: 1rem;
   text-align: center;
+  background-color: #B0B5B3;
 }
 
 nav ul {
@@ -19,7 +20,37 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #564E58;
-  font-size: 1rem;
+  color: #101419;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
+
+main {
+	padding: 4rem 0;
+}
+  
+
+body {
+	color: #101419;
+	background-color: #DEECF4;
+	text-align: center;
+}
+
+img { max-width: 100%; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.nav__projects {	
+	text-align: center;
+	list-style: none;
+  	margin: 2;
+ 	padding: 2;
+ 	color: #564E58;
+ 	font-size: 1rem;
+}
+
 
