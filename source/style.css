@@ -1,8 +1,35 @@
+                                                            /$$
+                                                           | $$
+  /$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$ | $$
+ /$$__  $$ /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$|____  $$| $$
+| $$  \ $$| $$$$$$$$| $$  \ $$| $$$$$$$$| $$  \__/ /$$$$$$$| $$
+| $$  | $$| $$_____/| $$  | $$| $$_____/| $$      /$$__  $$| $$
+|  $$$$$$$|  $$$$$$$| $$  | $$|  $$$$$$$| $$     |  $$$$$$$| $$
+ \____  $$ \_______/|__/  |__/ \_______/|__/      \_______/|__/
+ /$$  \ $$                                                     
+|  $$$$$$/                                                     
+ \______/                      
+
+
 *{
   box-sizing: border-box;
 }
+
 html {
   font-size: 16px;
+}
+
+main {
+  padding: 4rem 0;
+}
+
+body {
+  color: #101419;
+  background-image: url(images/concrete_seamless.png);
+  background-color: #E6EEF2;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
 }
 
 header {
@@ -37,29 +64,26 @@ nav ul li a {
   text-decoration: none;
 }
 
-.photos {
-  max-width: 100%;
+nav ul li a:hover {
+  color: #785964;
 }
 
-main {
-	padding: 4rem 0;
-}
-
-
-body {
-	color: #101419;
-  background-image: url(images/concrete_seamless.png);
-	background-color: #DEECF4;
-	text-align: center;
-  font-size: 1rem;
-  font-family: 'Work Sans', sans-serif;
-}
 ul li {
   list-style: none;
   text-decoration: none;
+  color: #101419;
 }
 
-img { max-width: 100%; }
+
+ /$$                                              
+| $$                                              
+| $$$$$$$   /$$$$$$  /$$   /$$  /$$$$$$   /$$$$$$$
+| $$__  $$ /$$__  $$|  $$ /$$/ /$$__  $$ /$$_____/
+| $$  \ $$| $$  \ $$ \  $$$$/ | $$$$$$$$|  $$$$$$ 
+| $$  | $$| $$  | $$  >$$  $$ | $$_____/ \____  $$
+| $$$$$$$/|  $$$$$$/ /$$/\  $$|  $$$$$$$ /$$$$$$$/
+|_______/  \______/ |__/  \__/ \_______/|_______/ 
+               
 
 .container {
   margin: 0 auto;
@@ -67,15 +91,33 @@ img { max-width: 100%; }
   width: 100%;
 }
 
-.nav__projects {	
-	text-align: center;
-	list-style: none;
- 	color: #564E58;
- 	font-size: 20px;
+.nav__projects {  
+  text-align: center;
+  list-style: none;
+  color: #101419;
+  font-size: 20px;
 }
+
+.nav_projects:hover {
+  color: #785964;
+}
+
+.nav_projects:visited {
+   color: #101419;
+   text-decoration: none;
+}
+
 .headings {
   font-size: 18px;
   font-family: 'Kreon', serif;
+}
+
+.photos {
+  max-width: 100%;
+}
+
+img { 
+  max-width: 100%; 
 }
 
 figure {
