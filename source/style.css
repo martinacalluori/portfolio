@@ -11,12 +11,13 @@ main {
 }
 
 body {
-  color: #101419;
+ color: #101419;
   background-image: url(images/concrete_seamless.png);
-  background-color: #E6EEF2;
+  background-color: #E6EEF2; 
   text-align: center;
   font-size: 1rem;
   font-family: 'Work Sans', sans-serif;
+  margin: 20px;
 }
 
 header {
@@ -70,9 +71,9 @@ ul li {
 }
               
 
-.container {
+.photos {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1500px;
   width: 100%;
 }
 
@@ -106,6 +107,10 @@ ul li {
   max-width: 100%;
 }
 
+.phone {
+  line-height: 50px;
+}
+
 img { 
   max-width: 100%; 
 }
@@ -124,12 +129,16 @@ figcaption {
   font-family: 'Work Sans', sans-serif;
 }
 
-.row {
+.photos .row {
   overflow: auto;
+  width: 1500px;
+  margin: 20px auto
+
 }
 
-.col {
-  width: 300px;
+.photos .col {
+  width: 500px;
   border-left: 3px solid #fff;
-
+  float: left;
+  padding: 20px;
 }
