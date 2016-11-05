@@ -131,14 +131,15 @@ figcaption {
 
 .photos .row {
   overflow: auto;
-  width: 1500px;
-  margin: 20px auto
+  width: 1200px;
+  margin: 20px auto;
 
 }
 
 .photos .col {
-  width: 500px;
+  width: 400px;
   border-left: 3px solid #fff;
   float: left;
   padding: 20px;
+  margin: 20px auto;
 }
