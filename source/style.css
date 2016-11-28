@@ -112,6 +112,14 @@ ul li {
   line-height: 50px;
 }
 
+.container {
+  max-width: 100%;
+  width: 1200px;
+  display: inline-block;
+text-align: center;
+
+}
+
 img { 
   max-width: 100%; 
 }
@@ -144,11 +152,15 @@ figcaption {
 figcaption:hover {
   opacity: .0;
 }
+
 .photos .row {
   overflow: auto;
   width: 1200px;
   margin: 20px auto;
+}
 
+.succ {
+  padding-top: 35px;
 }
 .photos .tall figcaption {
     bottom: 250px;
