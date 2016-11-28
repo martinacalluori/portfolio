@@ -118,6 +118,10 @@ img {
 
 figure {
   margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 figure:hover {
@@ -125,22 +129,36 @@ figure:hover {
 }
 
 figcaption {
-  color: #5D576B;
-  opacity: .0;
+  color: #E6EEF2;
+  opacity: 1;
   font-size: 30px;
   text-transform: uppercase;
   font-family: 'Kreon', serif;
   text-align: center;
+  position: absolute;
+  height: 25px;
+  width: 100%;
+
 }
 
 figcaption:hover {
-  opacity: 1;
+  opacity: .0;
 }
 .photos .row {
   overflow: auto;
   width: 1200px;
   margin: 20px auto;
 
+}
+.photos .tall figcaption {
+    bottom: 250px;
+    padding: 20px;
+
+}
+
+.photos .short figcaption {
+  bottom: 100px;
+  padding: 20px;
 }
 
 .photos .col {
