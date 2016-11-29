@@ -26,6 +26,9 @@ header {
   color: #E6EEF2;
   font-family: 'Kreon', serif;
   font-weight: bold;
+  /*max-width: 1000px;*/
+  padding left: 200px;
+  margin: 10px auto;
 }
 
 h1 {
@@ -34,18 +37,30 @@ h1 {
 
 h2 {
   font-size: 25px;
+  font:;
 }
 
+h3 {
+  font-size:60px;
+  font-family: 'Handlee', serif;
+  color:#3A1823;
+  background-image: url(images/concrete_seamless.png);
+  padding-top: 200px;
+  line-height: 100px;
+
+
+  
+}
 nav {
-  margin-top: 1rem;
   text-align: center;
   background-color: #C6C6C6;
+
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 nav ul li {
@@ -71,11 +86,6 @@ ul li {
 }
               
 
-.photos {
-  margin: 0 auto;
-  max-width: 1500px;
-  width: 100%;
-}
 
 .nav__projects {  
   text-align: center;
@@ -98,9 +108,28 @@ ul li {
   color: #785964;
 }
 
+.enter ul {
+  list-style: none;
+}
+
+.enter ul li a{
+  font-family: 'Kreon', serif;
+   font-size: 24px;
+   text-transform: uppercase;
+   list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #101419;
+}
+
+.enter ul li a:hover {
+  color: #785964;
+}
+
 .headings {
   font-size: 18px;
   font-family: 'Kreon', serif;
+
 }
 
 .photos {
@@ -116,8 +145,13 @@ ul li {
   max-width: 100%;
   width: 1200px;
   display: inline-block;
-text-align: center;
+  text-align: center;
+  line-height: 20px;
 
+}
+
+.resbod {
+  line-height: 25px;
 }
 
 img { 
@@ -153,24 +187,18 @@ figcaption:hover {
   opacity: .0;
 }
 
+
+
+.photos {
+  margin: 0 auto;
+  max-width: 1500px;
+  width: 100%;
+}
+
 .photos .row {
   overflow: auto;
   width: 1200px;
   margin: 20px auto;
-}
-
-.succ {
-  padding-top: 35px;
-}
-.photos .tall figcaption {
-    bottom: 250px;
-    padding: 20px;
-
-}
-
-.photos .short figcaption {
-  bottom: 100px;
-  padding: 20px;
 }
 
 .photos .col {
@@ -179,4 +207,19 @@ figcaption:hover {
   float: left;
   padding: 20px;
   margin: 20px auto;
+}
+
+.photos .tall figcaption {
+    bottom: 250px;
+    padding: 20px;
+
+}
+
+.photos .short figcaption {
+  bottom: 120px;
+  padding: 20px;
+}
+
+.succ {
+  padding-top: 35px;
 }
