@@ -27,8 +27,8 @@ header {
   font-family: 'Kreon', serif;
   font-weight: bold;
   /*max-width: 1000px;*/
-  padding left: 200px;
-  margin: 10px auto;
+ padding: 0 auto;
+  margin: 10px;
 }
 
 h1 {
@@ -48,8 +48,6 @@ h3 {
   padding-top: 200px;
   line-height: 100px;
 
-
-  
 }
 nav {
   text-align: center;
@@ -70,7 +68,7 @@ nav ul li {
 
 nav ul li a {
   color: #101419;
-  font-size: 1.2rem;
+  font-size: 24px;
   font-family: 'Kreon', serif;
   text-decoration: none;
 }
@@ -85,8 +83,6 @@ ul li {
   color: #101419;
 }
               
-
-
 .nav__projects {  
   text-align: center;
   list-style: none;
@@ -187,8 +183,6 @@ figcaption:hover {
   opacity: .0;
 }
 
-
-
 .photos {
   margin: 0 auto;
   max-width: 1500px;
@@ -203,7 +197,7 @@ figcaption:hover {
 
 .photos .col {
   width: 400px;
-  border-left: 3px solid #fff;
+  border-left: 3px;
   float: left;
   padding: 20px;
   margin: 20px auto;
@@ -217,6 +211,10 @@ figcaption:hover {
 
 .photos .short figcaption {
   bottom: 120px;
+  padding: 20px;
+}
+.photos .medium figcaption {
+  bottom: 200px;
   padding: 20px;
 }
 
