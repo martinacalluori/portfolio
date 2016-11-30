@@ -27,7 +27,7 @@ header {
   font-family: 'Kreon', serif;
   font-weight: bold;
   /*max-width: 1000px;*/
- padding: 0 auto;
+ padding: 0 ;
   margin: 10px;
 }
 
@@ -37,7 +37,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  font:;
+
 }
 
 h3 {
