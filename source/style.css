@@ -82,12 +82,15 @@ ul li {
   text-decoration: none;
   color: #101419;
 }
-              
+/*              
 .nav__projects {  
   text-align: center;
   list-style: none;
   font-size: 25px;
+  max-width: 1200px;
+
 }
+
 .nav__projects ul {
   list-style: none;
 }
@@ -98,21 +101,22 @@ ul li {
   text-decoration: none;
   padding: 12px;
   display: inline-block;
+
 }
 
 .nav__projects ul li a:hover {
   color: #785964;
 }
-
+*/
 .enter ul {
   list-style: none;
 }
 
 .enter ul li a{
   font-family: 'Kreon', serif;
-   font-size: 24px;
-   text-transform: uppercase;
-   list-style: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  list-style: none;
   text-decoration: none;
   display: inline-block;
   color: #101419;
