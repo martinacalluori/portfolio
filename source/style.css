@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background-color: #3A1823;
+  background-color: #3A1823; 
   font-size: 25px;
   color: #E6EEF2;
   font-family: 'Kreon', serif;
@@ -168,7 +168,7 @@ figure {
 
 figure:hover {
   opacity: .9;
-}
+} 
 
 figcaption {
   color: #E6EEF2;
@@ -180,6 +180,12 @@ figcaption {
   position: absolute;
   height: 25px;
   width: 100%;
+
+}
+
+figcaption a {
+  text-decoration: none;
+  color: #E6EEF2;
 
 }
 
